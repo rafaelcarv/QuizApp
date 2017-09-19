@@ -1,4 +1,31 @@
 <resources>
     <string name="app_name">QuizApp</string>
-    <string name="introduction">This quiz contains 10 different questions. Click on Start when you are ready.</string>
+    <string name="introduction">This quiz contains 5 different questions. Click on Start when
+        you are ready.</string>
+
+    <string name="question1">Q1: How much is 1 + 2 * 3?</string>
+    <string name="answer1a">9</string>
+    <string name="answer1b">8</string>
+    <string name="answer1c">6</string>
+    <string name="answer1d">7</string>
+
+    <string name="question2">Q2: Which of these countries are from the american continent?</string>
+    <string name="answer2a">Brazil</string>
+    <string name="answer2b">Netherlands</string>
+    <string name="answer2c">Mexico</string>
+    <string name="answer2d">Australia</string>
+
+    <string name="question3">Q3: How much is the value of x in:\n x = (10 + 40) * 2</string>
+
+    <string name="question4">Q4: Which of these things are heavier? </string>
+    <string name="answer4a"> a feather </string>
+    <string name="answer4b"> 100KG of cotton </string>
+    <string name="answer4c"> 100KG of beef </string>
+    <string name="answer4d"> a nail </string>
+
+    <string name="question5">Q5: Which country is represented by this flag?</string>
+    <string name="answer5a">Japan</string>
+    <string name="answer5b">China</string>
+    <string name="answer5c">United States of America</string>
+    <string name="answer5d">New Zealand</string>
 </resources>
