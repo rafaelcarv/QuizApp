@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">QuizApp</string>
+    <string name="introduction">This quiz contains 10 different questions. Click on Start when you are ready.</string>
 </resources>
