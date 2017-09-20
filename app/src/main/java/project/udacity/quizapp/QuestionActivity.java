@@ -44,44 +44,42 @@ public class QuestionActivity extends AppCompatActivity {
         if(rightAnswer.isChecked()) {
             return 2;
         }
-        return 0;
+        else {
+            return 0;
+        }
     }
 
     private int getQuestion3Result() {
         if(question3Answer.getText().toString().equals(QUESTION_3_RIGHT_RESULT)) {
             return 2;
         }
-        return 0;
+        else {
+            return 0;
+        }
     }
 
     private int getQuestion2Result() {
         if(question2AnswerB.isChecked() || question2AnswerD.isActivated()) {
             return 0;
         }
-
-        int result = 0;
-        if(question2AnswerA.isChecked()) {
-            result ++;
+        if(question2AnswerA.isChecked() && question2AnswerC.isChecked()) {
+            return 2;
         }
-        if(question2AnswerC.isChecked()) {
-            result ++;
+        else {
+            return 0;
         }
-        return result;
     }
 
     private int getQuestion4Result() {
         if(question4AnswerA.isChecked() || question4AnswerD.isActivated()) {
             return 0;
         }
-
-        int result = 0;
-        if(question4AnswerB.isChecked()) {
-            result ++;
+        if(question4AnswerB.isChecked() && question4AnswerC.isChecked()) {
+            return 2;
         }
-        if(question4AnswerC.isChecked()) {
-            result ++;
+        else {
+            return 0;
         }
-        return result;
     }
 
     @OnClick(R.id.submitAnswers)
