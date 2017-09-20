@@ -28,4 +28,6 @@
     <string name="answer5b">China</string>
     <string name="answer5c">United States of America</string>
     <string name="answer5d">New Zealand</string>
+    <string name="editTextHint">Answer just with numbers</string>
+    <string name="submitAnswersButton">submit answers</string>
 </resources>
